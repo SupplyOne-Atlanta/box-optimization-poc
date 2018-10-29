@@ -9,13 +9,7 @@ print (os.getcwd())
 
 # In[117]:
 
-# os.chdir('C:\\Users\\Shashank\\Desktop')
 os.chdir(os.getcwd() + '\\data')
-
-# In[155]:
-
-# container1
-
 
 # In[118]:
 
@@ -25,18 +19,8 @@ import pandas as pd
 
 # In[119]:
 
-# container=pd.read_csv("containers.csv")
-container=pd.read_csv("container.csv")
+container=pd.read_csv('container.csv')
 print (container)
-
-
-# In[120]:
-
-# path_d='C:\\Users\\Shashank\\Desktop'
-path_d='C:\\KSU_BARD_DATA'
-# container.to_csv('con.csv',path=path_d)
-container.to_csv('con.csv')
-
 
 # In[121]:
 
@@ -51,8 +35,7 @@ print (item)
 
 # In[123]:
 
-# order=pd.read_csv("order1.txt")
-order=pd.read_csv("order.txt")
+order=pd.read_csv("order.csv")
 print (order)
 
 
