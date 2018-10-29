@@ -10,7 +10,7 @@ print (os.getcwd())
 # In[117]:
 
 # os.chdir('C:\\Users\\Shashank\\Desktop')
-os.chdir('C:\\KSU_BARD_DATA')
+os.chdir(os.getcwd() + '\\data')
 
 # In[155]:
 
