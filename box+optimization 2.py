@@ -9,7 +9,11 @@ print (os.getcwd())
 
 # In[117]:
 
-os.chdir(os.getcwd() + '\\data')
+# Uncomment line below for Windows env
+# os.chdir(os.getcwd() + '\\data')
+
+# Uncomment line below for Linux env
+os.chdir(os.getcwd() + '/data')
 
 # In[118]:
 
