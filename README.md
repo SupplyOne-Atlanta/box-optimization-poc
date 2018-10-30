@@ -1,3 +1,3 @@
-# box-optimization-poc
+# Box Optimization Project
 Original IPC Box Optimization Project from KSU
-Based on the work by Shashank Hebbar and Jennifer Lewis Priestly, Ph.D.
+Created by Shashank Hebbar and Jennifer Lewis Priestly, Ph.D.
